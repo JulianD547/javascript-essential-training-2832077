@@ -6,3 +6,14 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+class DogToys {
+  constructor(name, size, color, typeOfToy, chewedUp, titoPick) {
+    this.name = name;
+    this.size = size;
+    this.color = color;
+    this.typeOfToy = typeOfToy;
+    this.chewedUp = chewedUp;
+    this.titoPick = titoPick;
+  }
+}
